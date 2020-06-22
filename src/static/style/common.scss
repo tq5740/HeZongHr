@@ -1,0 +1,56 @@
+@import "./baseColor.scss";
+
+.fr,
+.right {
+  float: right;
+}
+
+.fl,
+.left {
+  float: left;
+}
+
+.w65 {
+  width: 65px;
+}
+.w80per {
+  width: 80%;
+}
+.w50per {
+  width: 60%;
+}
+
+.required {
+  color: $state3;
+  margin-left: 10px;
+}
+.text-box {
+  line-height: 1.5;
+  padding: 5px 15px;
+  border-radius: 4px;
+  width: 80%;
+  min-height: 5em;
+  max-height: 10em;
+  border: 1px solid #dcdfe6;
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.is-fullscreen {
+  background: #f0f2f5;
+  .el-dialog__header {
+    display: none;
+  }
+}
+
+body {
+  color: $font1 !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+{
+  "git.ignoreLimitWarning": true,
+  "files.associations": {},
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline",
+      "wap_line_length": 220,
+      "end_with_newline": false
+    },
+    "prettyhtml": {
+      "printWidth": 320,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  }
+}
